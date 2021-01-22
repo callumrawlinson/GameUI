@@ -1,0 +1,12 @@
+name: Gameform
+main: game\game
+api: 3.0.0
+version: 0.1
+author: Callum
+
+commands:
+ games:
+  description: "Opens the GameUI"
+permissions:
+  list.games:
+    default: true
